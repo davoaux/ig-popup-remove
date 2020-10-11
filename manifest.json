@@ -2,7 +2,6 @@
   "manifest_version": 2,
   "name": "Instagram Popup Remove",
   "version": "1.0",
-  "default_locale": "en",
   "description": "Remove the login popup from Instagram that prevents the user to keep scrolling",
   "author": "David Ruiz",
   "content_scripts": [
