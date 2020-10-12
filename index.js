@@ -6,7 +6,6 @@ const modalObserver = new MutationObserver(mutationList => {
     if (addedNode !== undefined && addedNode.hasAttribute('role')) {
       if (addedNode.attributes.role.value == 'presentation') {
         addedNode.parentNode.removeChild(addedNode);
-        break;
       }
     }
   }
